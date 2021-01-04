@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project MeMe</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+	<h1> Project Meme-Generator </h1>
+
+	<form>
+		<label for="fname">Insert your text :</label><br>
+		<input type="text" id="text-input"  maxlength="60" name="fname"><br><br>
+		<label for="imglabel">Choose the image to upload:</label><br>
+		<input type="file" id="meme-insert" name="imglabel"><br>
+	</form>
+	<div id="imagesmallmemecomtainer" class="imagesmallmemecomtainer" >
+		<img id='meme-1' src='/imgs/meme1.jpeg' height="100" alt='pic of meme1'></img>
+		<img id='meme-2' src='/imgs/meme2.jpeg' height="100" alt='pic of meme1'></img>
+		<img id='meme-3' src='/imgs/meme3.jpeg' height="100" alt='pic of meme1'></img>
+		<img id='meme-4' src='/imgs/meme4.jpeg' height="100" alt='pic of meme1'></img>
+
+	</div>
+	<br>
+	<button class="button" id="button1">button 1</button>
+	<button class="button" id="button2">button 2</button>
+	<button class="button" id="button3">button 3</button>
+	<div class="classeImageContainer" id="meme-image-container">
+		<div class="classeMemeText" id="meme-text"></div>
+		<img class="classMemeImage" id="meme-image" src="/imgs/meme3.jpeg">
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

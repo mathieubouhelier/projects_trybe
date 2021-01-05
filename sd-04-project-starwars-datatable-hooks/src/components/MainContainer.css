@@ -1,0 +1,43 @@
+.filterEmbender {
+  align-items: center;
+  display: flex;
+}
+
+.filters {
+  display: flex;
+}
+
+.filterContainer {
+  align-items: flex-start;
+  background-color: darkgray;
+  background-image: url('../images/deadstar.png');
+  background-size: cover;
+  display: flex;
+  height: 300px;
+  justify-content: space-around;
+}
+
+.searchbar {
+  margin-left: 5rem;
+}
+
+.filterListContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.filterList {
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  opacity: 0.9;
+  padding: 1px 10px;
+}
+
+.button-delete {
+  margin-left: 10px;
+}

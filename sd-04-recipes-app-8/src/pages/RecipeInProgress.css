@@ -1,0 +1,7 @@
+.default {
+  text-decoration: none solid black;
+}
+
+.checked {
+  text-decoration: line-through solid blue;
+}

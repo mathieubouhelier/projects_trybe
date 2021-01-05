@@ -1,0 +1,8 @@
+.header-profile {
+  align-items: center;
+  background-color: gray;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+}

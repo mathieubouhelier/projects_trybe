@@ -1,0 +1,8 @@
+.header-explore {
+  align-items: center;
+  background-color: rgb(23, 162, 184);;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}

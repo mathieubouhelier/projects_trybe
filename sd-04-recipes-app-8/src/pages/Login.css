@@ -1,0 +1,25 @@
+body, html {
+  height: 100%;
+}
+
+.login-container {
+
+}
+
+.simple-login-container {
+  margin: 50px auto;
+  max-width: 100%;
+  width: 300px;
+}
+.simple-login-container h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.simple-login-container .btn-login {
+  background-color: rgb(23, 162, 184);
+  color: #fff;
+}
+a {
+  color: #fff;
+}

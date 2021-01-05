@@ -10,3 +10,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 - *[Project - HTML & CSS](https://github.com/mathieubouhelier/projects_trybe/tree/main/sd-04-block3-project-html-css)*
 #### JavaScript
 - *[Project - Meme Generator](https://github.com/mathieubouhelier/projects_trybe/tree/main/sd-04-block5-project-meme-generator)*
+- *[Project - Art with Pixels](https://github.com/mathieubouhelier/projects_trybe/tree/main/sd-04-block5-project-pixels-art)*
+- *[Project - To Do List](https://github.com/mathieubouhelier/projects_trybe/tree/main/sd-04-block5-project-todo-list)*
+- *[Project - Guess the Color](https://github.com/mathieubouhelier/projects_trybe/tree/main/sd-04-block5-project-color-guess)*
+- *[Project - Mysterious Card](https://github.com/mathieubouhelier/projects_trybe/tree/main/sd-04-block5-project-mistery-letter)*

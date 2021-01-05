@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>facebook - entre ou cadastre-se</title>
+	<link rel="stylesheet" href="libs/bootstrap.min.css" type="text/css"/>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="libs/jquery-3.5.0.min.js"></script>
+	<script type="text/javascript" src="libs/bootstrap.min.js"></script>
+</head>
+<body>
+  <header class="top-bar">
+    <div class="logo-container">
+      <img class="facebook-logo" src="img/facebook-logo.png" alt="Logo facebook">
+      <div class="logo-side"></div>
+    </div>
+    <div class="formSign-container">
+      <form class="login form-row needs-validation" novalidate>
+        <div class="form-group col-sm mb-0">
+          <label id="user-email-phone-label" class="mb-0"><small>Email ou telefone</small></label>
+          <input id="user-email-phone" type="text" pattern="^([0-9]{9})|([A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3})$" class="form-control form-control-sm rounded-0 border-dark h-25" required>
+          <div class="invalid-feedback alert-danger">
+            email ou o número de telefone invalido.
+          </div>
+        </div>
+        <div class="form-group col-sm mb-0">
+          <label class="mb-0"><small>Senha</small></label>
+          <input type="password" id="user-password" class="form-control form-control-sm rounded-0 border-dark h-25" id="user-password" required>
+          <small id="user-password" class="form-text" style="color: #9cb4d8;">Esqueceu a conta?</small>
+          <div class="invalid-feedback alert-danger">
+            Senha invalida.
+          </div>
+        </div>
+        <div class="button-login form-group col-sm mb-0">
+        <button id="button-login" type="submit" class="btn btn-primary btn-sm" >Entrar</button>
+        </div>
+      </form>
+    </div>
+  </header>
+  <section class="main">
+    <div class="left-section">
+      <h4  class="text-h4">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h4>
+      <img id="facebook-networking" src="img/networking.png" width="550px" alt="world map">
+    </div>
+    <div class="right-section">
+      <h1 class="h1-right-section" >Abra uma conta</h1>
+      <h4 class="h4-right-section">É rápido e fácil.</h4>
+    <form class="needs-validation registerForm" novalidate>
+      <div class="form-row">
+        <div class="form-group col-sm-5">
+          <input type="text" class="form-control" placeholder="Nome" required>
+          <div class="invalid-feedback alert-danger">
+            Nome invalido: vazio.
+          </div>
+        </div>
+        <div class="form-group col-5">
+          <input type="text" class="form-control" placeholder="Sobrenome" required>
+          <div class="invalid-feedback alert-danger">
+            Sobrenome invalido: vazio.
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control col-10" pattern="^([0-9]{9})|([A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3})$" placeholder="Celular ou email" required>
+        <div class="invalid-feedback alert-danger col-10">
+          Email/Celuluar invalido. Celular com 9 digits
+        </div>
+      </div>
+      <div class="form-group">
+        <input type="password" class="form-control col-10" placeholder="Nova senha" required>
+        <div class="invalid-feedback alert-danger col-10">
+          Senha invalida: vazia
+        </div>
+      </div>
+        <p class="fontstyle-label-rigth-section"  >Data de nascimento</p>
+        <input type="date" placeholder="dd/mm/aaaa" required>
+        <div class="invalid-feedback alert-danger col-5">
+        Data de nascimento invalida: vazia
+        </div>
+      <div class="form-group mt-1 fontstyle-label-rigth-section Gênero">
+      <label id="Gênero" for="birthdate">Gênero</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <label class="form-check-label">
+        <input class="form-check-input" type="radio" name="radio-choice" value="Feminino" required>Feminino</input>
+        <div class="invalid-feedback alert-danger col-8">
+          selecione um gênero
+          </div>
+        </label>
+      </div>
+      <div class="form-check form-check-inline">
+        <label class="form-check-label">
+        <input class="form-check-input" type="radio" name="radio-choice" value="Masculino" required>Masculino</input>
+        <div class="invalid-feedback alert-danger col-8">
+          selecione um gênero
+          </div>
+      </label>
+      </div>
+      <div class="form-check form-check-inline disabled">
+        <label class="form-check-label">
+        <input class="form-check-input" type="radio" name="radio-choice" value="Personalizado" required>Personalizado</input>
+        <div class="invalid-feedback alert-danger col-8">
+          selecione um gênero
+          </div>
+      </label>
+      </div>
+      <p class="disclamer">Ao clicar em Cadastre-se, você concorda com nossos <a href=# >Termos, Política de Dados</a> e <a href=#>Política de Cookies.</a> Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+      <div class="button-register Cadastre-se">
+        <button id="facebook-register" type="submit" class="btn btn-primary">Cadastre-se</button>
+      </div>
+    </form>
+    <p class="createpageforspecials"><a href=#>Criar uma Página</a> para uma celebridade, banda ou empresa.</p>
+    </div>
+  </section>
+  <footer>
+    <img class="image-footer" id="facebook-footer" src="img/footer.png" alt="footer">
+  </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>

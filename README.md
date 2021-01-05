@@ -20,3 +20,15 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 - *[Project - JavaScript Unit Tests](https://github.com/mathieubouhelier/projects_trybe/tree/main/sd-04-block8-project-js-unit-tests)*
 #### JavaScript ES6
 - *[Project - Zoo functions](https://github.com/mathieubouhelier/projects_trybe/tree/main/sd-04-block9-project-zoo-functions)*
+#### Asynchronicity & Callbacks
+- *[Project - Shopping Cart](https://github.com/mathieubouhelier/projects_trybe/tree/main/sd-04-block10-project-shopping-cart)*
+#### Asynchronous Jest and Mocking
+- *[Project - Asynchronous Jest and Mocking](https://github.com/mathieubouhelier/projects_trybe/tree/main/sd-04-block11-project-jest)*
+#### Introduction - React Components
+- *[Project - Movie Cards Library](https://github.com/mathieubouhelier/projects_trybe/tree/main/sd-04-block11-project-movie-cards-library)*
+#### React events and forms
+- *[Project - Movie Cards Library Stateful](https://github.com/mathieubouhelier/projects_trybe/tree/main/sd-04-block12-project-movie-card-library-stateful)*
+#### React life cycle and Router
+- *[Project - Movie Cards Library CRUD](https://github.com/mathieubouhelier/projects_trybe/tree/main/sd-04-project-movie-card-library-crud)*
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo list Project</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        Minha Lista de Tarefas
+    </header>
+    <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+        <div id="add-task">
+        <form>
+            <label for="fname"></label>
+            <input type="text" id="texto-tarefa" maxlength="2000" name="fname">
+        </form>
+        <button id="criar-tarefa" type="button">adicionar
+        </button>
+        <ol id="lista-tarefas">
+        </ol>
+    </div>
+    <div id="button-action">
+        <button id="apaga-tudo" type="button">Delete All Tasks
+        </button>
+        <button id="remover-finalizados" type="button">Delete All finished Tasks
+        </button>
+        <button id="remover-selecionado" type="button">Delete the selected Task
+        </button> <br>
+        <button id="mover-baixo" type="button">Task Down
+        </button>
+        <button id="mover-cima" type="button">Task Up
+            <button id="salvar-tarefas" type="button">Save
+            </button>
+        </button>
+    </div>
+ <script src="script.js"></script>
+</body>
+</html>

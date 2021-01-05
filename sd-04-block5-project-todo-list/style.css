@@ -1,0 +1,38 @@
+header {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: grey;
+  font-size: small;
+  font-style: oblique;
+}
+
+li {
+  background-color: white;
+  cursor: pointer;
+
+}
+
+button {
+  background-color: rgb(84 , 100 , 109);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 10px;
+  margin-bottom: 7px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.selected {
+  background-color: gray;
+}

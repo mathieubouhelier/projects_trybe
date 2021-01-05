@@ -1,0 +1,29 @@
+body {
+  font-size: x-large;
+  text-align: center;
+}
+
+.ball {
+  border-radius: 50px;
+  display: inline-flex;
+  height: 100px;
+  margin-left: 50px;
+  width: 100px;
+}
+
+.answer {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+button {
+  background-color: rgb(14, 83, 122);
+  border: none;
+  color: white;
+  display: inline-block;
+  font-size: 30px;
+  margin-top: 50px;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+}

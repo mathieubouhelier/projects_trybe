@@ -30,5 +30,16 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 - *[Project - Movie Cards Library Stateful](https://github.com/mathieubouhelier/projects_trybe/tree/main/sd-04-block12-project-movie-card-library-stateful)*
 #### React life cycle and Router
 - *[Project - Movie Cards Library CRUD](https://github.com/mathieubouhelier/projects_trybe/tree/main/sd-04-project-movie-card-library-crud)*
+#### React and Agile Methodologies
+- *[Project - Frontend Online Store (group project)](https://github.com/mathieubouhelier/projects_trybe/tree/main/sd-04-project-frontend-online-store-11)*
+#### React Testing Library
+- *[Project - React Tests](https://github.com/mathieubouhelier/projects_trybe/tree/main/sd-04-project-react-testing-library)*
+##### React & Redux
+- *[Project - Table with data filters](https://github.com/mathieubouhelier/projects_trybe/tree/main/sd-04-project-react-redux-starwars-database-filters)*
+#### React & Redux
+- *[Project - Trivia Game (group project)](https://github.com/mathieubouhelier/projects_trybe/tree/main/sd-04-project-trivia-react-redux-3)*
+#### React Context API and Hooks
+- *[Project - Datatable StarWars with Context API and Hooks](https://github.com/mathieubouhelier/projects_trybe/tree/main/sd-04-project-starwars-datatable-hooks)*
+- *[Project - Recipe App (group project)](https://github.com/mathieubouhelier/projects_trybe/tree/main/sd-04-recipes-app-8)*
 
 

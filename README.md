@@ -57,13 +57,13 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 #### NodeJS - Express and MVC Architecture
 - *[Project - Cookmaster](https://github.com/mathieubouhelier/projects_trybe/tree/main/projects%20Back%20End/sd-04-cookmaster)*
 #### NodeJS - Service Layer and RESTful Architecture
-- *[Project - Store Manager]()*
+- *[Project - Store Manager](https://github.com/mathieubouhelier/projects_trybe/tree/main/projects%20Back%20End/sd-04-store-manager)*
 #### NodeJS - Authentication and File Upload
-- *[Project - Cookmaster V2]()*
+- *[Project - Cookmaster V2](https://github.com/mathieubouhelier/projects_trybe/tree/main/projects%20Back%20End/sd-04-cookmaster-v2)*
 #### NodeJS - Heroku Deployment
-- *[Project - Stranger Things: Backend]()*
-- *[Project - Stranger Things: Frontend]()*
+- *[Project - Stranger Things: Backend](https://github.com/mathieubouhelier/projects_trybe/tree/main/projects%20Back%20End/sd-04-stranger-things-backend)*
+- *[Project - Stranger Things: Frontend](https://github.com/mathieubouhelier/projects_trybe/tree/main/projects%20Back%20End/sd-04-stranger-things-frontend)*
 #### NodeJS - Architecture: SOLID and ORM
-- *[Project - Blogs API]()*
+- *[Project - Blogs API](https://github.com/mathieubouhelier/projects_trybe/tree/main/projects%20Back%20End/sd-04-project-blogs-api)*
 #### NodeJS - Sockets
-- *[Project - Webchat]()*
+- *[Project - Webchat](https://github.com/mathieubouhelier/projects_trybe/tree/main/projects%20Back%20End/sd-04-project-webchat)*

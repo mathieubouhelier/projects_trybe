@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One Recipe</title>
+  </head>
+  <header>
+    <h4>Header</h4>
+    <% if (user) { %>
+    <p>Usuário atual: <%= `${user[0].name} ${user[0].lastName} ${user[0].id}` %></p>
+    <% if (recipe.userId === user[0].id) { %>
+    <p>same player</p>
+    <a data-testid="editar-receita" href="/recipes/<%= recipe.id %>/edit">editar-receita</a>
+    <a data-testid="excluir-receita" href="/recipes/<%= recipe.id %>/delete">excluir-receita</a>
+    <% } %> <% } %>
+  </header>
+  <body>
+    <h1>One Recipe</h1>
+    <h1>Name <%= recipe.name %></h1>
+    <h2>ingredients <%= recipe.ingredients %></h2>
+    <h3>instructions <%= recipe.instructions %></h3>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One Recipe</title>
+  </head>
+
+  <body>
+    <h1>search</h1>
+    <form action="/recipes/search" method="GET">
+      <input type="text" name="q" data-testid="receita"></input>
+      <button type="submit" data-testid="buscar">Buscar</button>
+    </form>
+    <section>
+      <% if (user) { %>
+      <button data-testid="nova-receita" href="/recipes/new">Nova Receita</button>
+
+      <% } %> <% if (recipes) { %>
+      <ul>
+        <li>
+          <% recipes.forEach((recipe) => { %>
+          <h3><%= recipe.name %></h3>
+          <h4><%= recipe.user %></h4>
+          <a href="/recipes/<%= recipe.id %>">Ver mais</a>
+          <% }) %>
+        </li>
+      </ul>
+      <% } %>
+    </section>
+
+  </body>
+</html>

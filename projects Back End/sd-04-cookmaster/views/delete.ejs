@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delete</title>
+  </head>
+  <header>
+    <h1>Delete</h1>
+  </header>
+  <body>
+    <% if (message) {%>
+    <div class="message"><%= message %></div>
+    <% } %> <% if (user) { %>
+    <p>Usuário atual: <%= `${user[0].name} ${user[0].lastName} ${user[0].id} ${recipeUserID}` %></p>
+    <% if (recipeUserID === user[0].id) { %>
+    <p>same player</p>
+    <form action="/recipes/<%= recipeID %>/delete" method="POST">
+      <label for="passwordInput">Senha: </label>
+      <input data-testid="senha" type="password" name="password" id="passwordInput" /><br />
+      <button data-testid="confirmar" type="submit">confirmar</button>
+      <button data-testid="cancelar">cancelar</button>
+    </form>
+    <% } %> <% } %>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookmaster - Home</title>
+  </head>
+  <body>
+    <header>
+      <h4>Header</h4>
+
+      <a data-testid="buscar-receita" href="/recipes/search">buscar-receita</a>
+      <a data-testid="login" href="/login">Login</a>
+      <a data-testid="logout" href="/logout">Logout</a>
+    </header>
+    <h1>Boas vindas ao Cookmaster! Receitas</h1>
+    <section>
+      <% if (user) { %>
+      <button data-testid="nova-receita"><a href="/recipes/new">Nova Receita</a></button>
+      <button data-testid="minhas-receitas">
+        <a href="/me/recipes">Minhas Receitas</a>
+      </button>
+
+      <% } %> <% if (recipes) { %>
+      <ul>
+        <li>
+          <% recipes.forEach((recipe) => { %>
+          <h3><%= recipe.name %></h3>
+          <h4><%= recipe.user %></h4>
+          <a href="/recipes/<%= recipe.id %>">Ver mais</a>
+          <% }) %>
+        </li>
+      </ul>
+      <% } %>
+    </section>
+  </body>
+</html>

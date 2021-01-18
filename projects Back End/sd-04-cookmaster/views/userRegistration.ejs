@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Registration</title>
+  </head>
+  <header>
+    <h1>User Registration</h1>
+  </header>
+  <body>
+    <% if (message) {%>
+      <div class="message">
+        <%= message %>
+      </div>
+      <% } %>
+
+    <form action="/registration" method="POST">
+      <div class="form-group">
+        <label for="email">Email: </label>
+        <input data-testid="email" type="text" name="email" id="emailID" /><br />
+      </div>
+      <div class="form-group">
+        <label for="password">Senha: </label>
+        <input data-testid="senha" type="password" name="password" id="passwordID" /><br />
+      </div>
+      <div class="form-group">
+        <label for="passwordConfirmation">Confirmação da senha: </label>
+        <input
+          data-testid="confirmar-senha"
+          type="password"
+          name="passwordConfirmation"
+          id="passwordConfirmationID"
+        /><br />
+      </div>
+      <div class="form-group">
+        <label for="name">Nome: </label>
+        <input data-testid="nome" type="text" name="name" id="nameID" /><br />
+      </div>
+      <div class="form-group">
+        <label for="lastName">Sobrenome: </label>
+        <input
+        data-testid="sobrenome"
+          type="text"
+          name="lastName"
+          id="lastNameID"
+        /><br />
+      </div>
+      <button data-testid="cadastrar" type="submit">Cadastrar</button>
+      <button data-testid="login"> <a  href="/login">Login</a></button>
+    </form>
+  </body>
+</html>

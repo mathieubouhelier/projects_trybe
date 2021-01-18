@@ -48,4 +48,11 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 - *[Project - Vocabulary Booster](https://github.com/mathieubouhelier/projects_trybe/tree/main/projects%20Back%20End/sd-04-mysql-vocabulary-booster)*
 #### Database Modeling and Normalization
 - *[Project - One For All](https://github.com/mathieubouhelier/projects_trybe/tree/main/projects%20Back%20End/sd-04-mysql-one-for-all)*
-
+#### NoSQL - MongoDB
+- *[Project - Data Flights]()*
+#### MongoDB - Updates
+- *[Project - Commerce]()*
+#### MongoDB - Aggregation Framework
+- *[Project - Aggregations]()*
+#### NodeJS - Express and MVC Architecture
+- *[Project - Cookmaster]()*

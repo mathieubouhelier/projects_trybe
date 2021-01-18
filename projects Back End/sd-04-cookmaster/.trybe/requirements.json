@@ -1,0 +1,40 @@
+{
+  "requirements": [
+    {
+      "description": "1 - Crie uma tela de listagem de receitas.",
+      "bonus": false
+    },
+    {
+      "description": "2 - Crie uma página de cadastro de usuários.",
+      "bonus": false
+    },
+    {
+      "description": "3 - Crie uma tela para visualizar uma receita específica.",
+      "bonus": false
+    },
+    {
+      "description": "4 - Cria uma página de buscar de receitas.",
+      "bonus": false
+    },
+    {
+      "description": "5 - Crie uma página de cadastro de receitas.",
+      "bonus": false
+    },
+    {
+      "description": "6 - Crie uma página de edição de receitas.",
+      "bonus": false
+    },
+    {
+      "description": "7 - Crie uma página de exclusão de uma receita.",
+      "bonus": false
+    },
+    {
+      "description": "8 - Crie uma página de Minhas receitas.",
+      "bonus": false
+    },
+    {
+      "description": "9 - Crie uma página de editar usuário.",
+      "bonus": true
+    }
+  ]
+}

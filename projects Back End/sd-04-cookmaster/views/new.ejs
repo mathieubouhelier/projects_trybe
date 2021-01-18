@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insert new Recipe</title>
+  </head>
+
+  <body>
+    <h1>Insert new recipe Nova Receita</h1>
+    <button data-testid="adicionar-ingrediente" onclick="addIngredient()">
+      Adicionar Ingrediente
+    </button>
+    <form action="/" method="POST">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input data-testid="nome-receita" class="form-control" name="name" placeholder="Name" />
+      </div>
+      <div class="form-group">
+        <label for="ingredients">Ingredientes</label>
+        <input
+          data-testid="ingredientes"
+          id="ingredient-input"
+          class="form-control"
+          name="Ingredientes"
+          placeholder="Ingrediente"
+        />
+      </div>
+      <ul id="container-ingredients"></ul>
+      <div class="form-group">
+        <input
+          type="hidden"
+          id="allIngredients"
+          class="form-control"
+          name="allIngredients"
+          placeholder="Total"
+        />
+      </div>
+      <div class="form-group">
+        <label for="instructions">Modo de Preparo</label>
+        <input
+          data-testid="modo-de-preparo"
+          class="form-control"
+          name="instructions"
+          placeholder="instructions"
+        />
+      </div>
+      <button
+        data-testid="postar-receita"
+        type="submit"
+        class="btn btn-primary"
+        onclick="onSubmit()"
+      >
+        Salvar
+      </button>
+      <a href="/" class="btn btn-success">Voltar</a>
+    </form>
+    <script>
+      function addIngredient() {
+        console.log('here addingredient');
+        const container = document.getElementById('container-ingredients');
+        const newIngredient = document.createElement('li');
+        const ingredientInput = document.getElementById('ingredient-input');
+        const removeButton = document.createElement('input');
+        removeButton.type = 'button';
+        removeButton.value = 'Excluir Ingrediente';
+        removeButton.innerText = 'Excluir Ingrediente';
+        removeButton.onclick = function () {
+          this.parentNode.parentNode.removeChild(this.parentNode);
+        };
+        newIngredient.innerText = ingredientInput.value;
+        newIngredient.className = 'ingredient';
+        newIngredient.appendChild(removeButton);
+        container.appendChild(newIngredient);
+      }
+      function onSubmit() {
+        const allIngredients = document.getElementById('allIngredients');
+        const ingredientItems = document.getElementsByClassName('ingredient');
+        const ingredientList = [];
+        for (let index = 0; index < ingredientItems.length; index++) {
+          ingredientList.push(ingredientItems[index].innerText);
+        }
+        allIngredients.value = ingredientList;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My recipes</title>
+  </head>
+  <body>
+    <header>
+      <h4>Header</h4>
+      <a data-testid="logout" href="/logout">Logout</a>
+    </header>
+    <h1>Boas vindas as minhas Receitas</h1>
+    <section>
+      <% if (user) { %>
+      <button data-testid="nova-receita" href="/recipes/new">Nova Receita</button>
+      <% } %> <% if (recipes) { %>
+      <ul>
+        <li>
+          <% recipes.forEach((recipe) => { %>
+          <h3><%= recipe.name %></h3>
+          <h4><%= recipe.user %></h4>
+          <a href="/recipes/<%= recipe.id %>">Ver mais</a>
+          <% }) %>
+        </li>
+      </ul>
+      <% } %>
+    </section>
+  </body>
+</html>

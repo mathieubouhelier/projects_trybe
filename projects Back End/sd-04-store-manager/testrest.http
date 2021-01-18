@@ -1,0 +1,38 @@
+GET http://localhost:3000/products  HTTP/1.1
+
+###
+GET http://localhost:3000/products/5f909c0850b2443af1ed5dc1  HTTP/1.1
+
+######
+
+POST http://localhost:3000/products HTTP/1.1
+content-type: application/json
+
+
+{ "name" : "popopopopo", "quantity" : 10 }
+
+######
+
+PUT http://localhost:3000/products/5f9320927a68c548ba1d5016 HTTP/1.1
+content-type: application/json
+
+
+{ "name" : "zzzzz", "quantity" : 222 }
+
+###
+
+DELETE http://localhost:3000/products/5f95a7321df4b633623efacb HTTP/1.1
+content-type: application/json
+
+###
+
+GET  http://localhost:3000/sales HTTP/1.1
+content-type: application/json
+
+###
+POST http://localhost:3000/sales HTTP/1.1
+content-type: application/json
+
+{ ["productId" : "007_007", "quantity" : 11] }
+
+###

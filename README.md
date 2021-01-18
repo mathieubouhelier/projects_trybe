@@ -49,10 +49,21 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 #### Database Modeling and Normalization
 - *[Project - One For All](https://github.com/mathieubouhelier/projects_trybe/tree/main/projects%20Back%20End/sd-04-mysql-one-for-all)*
 #### NoSQL - MongoDB
-- *[Project - Data Flights]()*
+- *[Project - Data Flights](https://github.com/mathieubouhelier/projects_trybe/tree/main/projects%20Back%20End/sd-04-mongodb-dataflights)*
 #### MongoDB - Updates
-- *[Project - Commerce]()*
+- *[Project - Commerce](https://github.com/mathieubouhelier/projects_trybe/tree/main/projects%20Back%20End/sd-04-mongodb-commerce)*
 #### MongoDB - Aggregation Framework
-- *[Project - Aggregations]()*
+- *[Project - Aggregations](https://github.com/mathieubouhelier/projects_trybe/tree/main/projects%20Back%20End/sd-04-mongodb-aggregations)*
 #### NodeJS - Express and MVC Architecture
-- *[Project - Cookmaster]()*
+- *[Project - Cookmaster](https://github.com/mathieubouhelier/projects_trybe/tree/main/projects%20Back%20End/sd-04-cookmaster)*
+#### NodeJS - Service Layer and RESTful Architecture
+- *[Project - Store Manager]()*
+#### NodeJS - Authentication and File Upload
+- *[Project - Cookmaster V2]()*
+#### NodeJS - Heroku Deployment
+- *[Project - Stranger Things: Backend]()*
+- *[Project - Stranger Things: Frontend]()*
+#### NodeJS - Architecture: SOLID and ORM
+- *[Project - Blogs API]()*
+#### NodeJS - Sockets
+- *[Project - Webchat]()*

@@ -41,10 +41,11 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 #### React Context API and Hooks
 - *[Project - Datatable StarWars with Context API and Hooks](https://github.com/mathieubouhelier/projects_trybe/tree/main/projects%20Front%20End/sd-04-project-starwars-datatable-hooks)*
 - *[Project - Recipe App (group project)](https://github.com/mathieubouhelier/projects_trybe/tree/main/projects%20Front%20End/sd-04-recipes-app-8)*
+## Back-end development :white_check_mark:
 #### Relational Databases
-- *[Project - All For One](https://github.com/deboracosilveira/trybe-projects/tree/master/Back-end%20development/project-21-mysql-all-for-one)*
+- *[Project - All For One](https://github.com/mathieubouhelier/projects_trybe/tree/main/projects%20Back%20End/sd-04-mysql-all-for-one)*
 #### SQL Functions, Joins and Subqueries
-- *[Project - Vocabulary Booster](https://github.com/deboracosilveira/trybe-projects/tree/master/Back-end%20development/project-22-mysql-vocabulary-booster)*
+- *[Project - Vocabulary Booster](https://github.com/mathieubouhelier/projects_trybe/tree/main/projects%20Back%20End/sd-04-mysql-vocabulary-booster)*
 #### Database Modeling and Normalization
-- *[Project - One For All](https://github.com/deboracosilveira/trybe-projects/tree/master/Back-end%20development/project-23-mysql-one-for-all)*
+- *[Project - One For All](https://github.com/mathieubouhelier/projects_trybe/tree/main/projects%20Back%20End/sd-04-mysql-one-for-all)*
 

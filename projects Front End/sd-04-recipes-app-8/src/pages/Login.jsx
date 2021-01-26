@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
@@ -18,7 +18,7 @@ const Login = ({ saveMail }) => {
   };
 
   const checkPassword = (pass) => (
-    pass.length > 6 ? setValidPassword(true) : setValidPassword(false)
+    pass.length > 5 ? setValidPassword(true) : setValidPassword(false)
   );
 
   const handleLogin = () => {
@@ -29,13 +29,13 @@ const Login = ({ saveMail }) => {
   };
 
   // useEffect(() => 
-  
+
   // document.body.style.backgroundColor= '#37b9e6',
-   
+
   // );
 
   return (
-
+    <div className="login-container">
       <div className="simple-login-container">
         <h2>Login</h2>
         <div className="row">
@@ -47,8 +47,10 @@ const Login = ({ saveMail }) => {
               placeholder="Email"
               onChange={(event) => checkEmail(event.target.value)}
             />
+            {!validEmail && <small id="emailHelp" class="form-text text-muted">Please enter a valid email address.</small>}
           </div>
         </div>
+
         <div className="row">
           <div className="col-md-12 form-group">
             <input
@@ -58,6 +60,8 @@ const Login = ({ saveMail }) => {
               placeholder="Senha"
               onChange={(event) => checkPassword(event.target.value)}
             />
+            {!validPassword && <small id="emailHelp" class="form-text text-muted">the password must be at least 6 characters long.</small>}
+
           </div>
         </div>
         <div className="row">
@@ -76,6 +80,7 @@ const Login = ({ saveMail }) => {
           </div>
         </div>
       </div>
+    </div>
   );
 };
 

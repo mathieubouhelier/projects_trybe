@@ -1,26 +1,33 @@
 {
   "files": {
-    "main.css": "/starwars-redux/static/css/main.10b93826.chunk.css",
-    "main.js": "/starwars-redux/static/js/main.07b67af4.chunk.js",
-    "main.js.map": "/starwars-redux/static/js/main.07b67af4.chunk.js.map",
-    "runtime-main.js": "/starwars-redux/static/js/runtime-main.ea517e44.js",
-    "runtime-main.js.map": "/starwars-redux/static/js/runtime-main.ea517e44.js.map",
-    "static/css/2.25d2a862.chunk.css": "/starwars-redux/static/css/2.25d2a862.chunk.css",
-    "static/js/2.8a204cd4.chunk.js": "/starwars-redux/static/js/2.8a204cd4.chunk.js",
-    "static/js/2.8a204cd4.chunk.js.map": "/starwars-redux/static/js/2.8a204cd4.chunk.js.map",
-    "index.html": "/starwars-redux/index.html",
-    "precache-manifest.cf8b3605a1535e92938f145c18acefec.js": "/starwars-redux/precache-manifest.cf8b3605a1535e92938f145c18acefec.js",
-    "service-worker.js": "/starwars-redux/service-worker.js",
-    "static/css/2.25d2a862.chunk.css.map": "/starwars-redux/static/css/2.25d2a862.chunk.css.map",
-    "static/css/main.10b93826.chunk.css.map": "/starwars-redux/static/css/main.10b93826.chunk.css.map",
-    "static/js/2.8a204cd4.chunk.js.LICENSE": "/starwars-redux/static/js/2.8a204cd4.chunk.js.LICENSE",
-    "static/media/MainContainer.css": "/starwars-redux/static/media/deadstar.76de0b16.png"
+    "main.css": "/mathieubouhelier/mathieubouhelier.github.io/recipe/static/css/main.541464c9.chunk.css",
+    "main.js": "/mathieubouhelier/mathieubouhelier.github.io/recipe/static/js/main.9a964289.chunk.js",
+    "main.js.map": "/mathieubouhelier/mathieubouhelier.github.io/recipe/static/js/main.9a964289.chunk.js.map",
+    "runtime-main.js": "/mathieubouhelier/mathieubouhelier.github.io/recipe/static/js/runtime-main.67a67c28.js",
+    "runtime-main.js.map": "/mathieubouhelier/mathieubouhelier.github.io/recipe/static/js/runtime-main.67a67c28.js.map",
+    "static/css/2.f3cffc9e.chunk.css": "/mathieubouhelier/mathieubouhelier.github.io/recipe/static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.ac547116.chunk.js": "/mathieubouhelier/mathieubouhelier.github.io/recipe/static/js/2.ac547116.chunk.js",
+    "static/js/2.ac547116.chunk.js.map": "/mathieubouhelier/mathieubouhelier.github.io/recipe/static/js/2.ac547116.chunk.js.map",
+    "index.html": "/mathieubouhelier/mathieubouhelier.github.io/recipe/index.html",
+    "precache-manifest.e07e92cd449b1402a39883b3557dd3a4.js": "/mathieubouhelier/mathieubouhelier.github.io/recipe/precache-manifest.e07e92cd449b1402a39883b3557dd3a4.js",
+    "service-worker.js": "/mathieubouhelier/mathieubouhelier.github.io/recipe/service-worker.js",
+    "static/css/2.f3cffc9e.chunk.css.map": "/mathieubouhelier/mathieubouhelier.github.io/recipe/static/css/2.f3cffc9e.chunk.css.map",
+    "static/css/main.541464c9.chunk.css.map": "/mathieubouhelier/mathieubouhelier.github.io/recipe/static/css/main.541464c9.chunk.css.map",
+    "static/js/2.ac547116.chunk.js.LICENSE.txt": "/mathieubouhelier/mathieubouhelier.github.io/recipe/static/js/2.ac547116.chunk.js.LICENSE.txt",
+    "static/media/blackHeartIcon.svg": "/mathieubouhelier/mathieubouhelier.github.io/recipe/static/media/blackHeartIcon.b8913346.svg",
+    "static/media/drinkIcon.svg": "/mathieubouhelier/mathieubouhelier.github.io/recipe/static/media/drinkIcon.f87c47c3.svg",
+    "static/media/exploreIcon.svg": "/mathieubouhelier/mathieubouhelier.github.io/recipe/static/media/exploreIcon.157945ff.svg",
+    "static/media/mealIcon.svg": "/mathieubouhelier/mathieubouhelier.github.io/recipe/static/media/mealIcon.b27ba19e.svg",
+    "static/media/profileIcon.svg": "/mathieubouhelier/mathieubouhelier.github.io/recipe/static/media/profileIcon.74e487e5.svg",
+    "static/media/searchIcon.svg": "/mathieubouhelier/mathieubouhelier.github.io/recipe/static/media/searchIcon.db812135.svg",
+    "static/media/shareIcon.svg": "/mathieubouhelier/mathieubouhelier.github.io/recipe/static/media/shareIcon.06215ed4.svg",
+    "static/media/whiteHeartIcon.svg": "/mathieubouhelier/mathieubouhelier.github.io/recipe/static/media/whiteHeartIcon.ea3b6ba8.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ea517e44.js",
-    "static/css/2.25d2a862.chunk.css",
-    "static/js/2.8a204cd4.chunk.js",
-    "static/css/main.10b93826.chunk.css",
-    "static/js/main.07b67af4.chunk.js"
+    "static/js/runtime-main.67a67c28.js",
+    "static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.ac547116.chunk.js",
+    "static/css/main.541464c9.chunk.css",
+    "static/js/main.9a964289.chunk.js"
   ]
 }

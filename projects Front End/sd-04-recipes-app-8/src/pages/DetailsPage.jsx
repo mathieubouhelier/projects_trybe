@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import { connect, useDispatch } from 'react-redux';
+import { Link } from 'react-router-dom';
+
 import PropTypes from 'prop-types';
 
 import { changeLocation } from '../actions/index';
@@ -33,12 +35,13 @@ const DetailsPage = ({ currentLocation, recipe, recomendation }) => {
   const recipeType = currentLocation === '/comidas' ? 'Meal' : 'Drink';
 
   return (
+
     <div className="container">
       {recipe.length > 0 && <RecipeDetails />}
       {recipe.length > 0 && <Ingredients />}
+      <StartRecipe />
       {recipeType === 'Meal' && recipe.length > 0 && <RecipeVideo />}
       {recomendation.length > 0 && <RecomendationCards />}
-      <StartRecipe />
     </div>
   );
 };

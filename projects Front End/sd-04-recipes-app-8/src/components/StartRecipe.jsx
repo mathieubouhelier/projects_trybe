@@ -21,7 +21,7 @@ const StartRecipe = ({ btnStart, currentLocation }) => {
       <button
         type="button"
         data-testid="start-recipe-btn"
-        className="btn-start-recipe btn btn-info"
+        className="btn btn-info"
         onClick={() => dispatch(changeBtnStart())}
       >
         {title}

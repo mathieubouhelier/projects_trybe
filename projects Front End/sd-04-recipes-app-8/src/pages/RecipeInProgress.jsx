@@ -53,7 +53,7 @@ const RecipeInProgress = ({ recipe, recipeID }) => {
       {recipe.length > 0 && <RecipeDetails />}
       {recipe.length > 0 && ingredientsList()}
       <Link to="/receitas-feitas">
-        <button className="btn btn-info" type="button" data-testid="finish-recipe-btn" disabled>
+        <button className="btn btn-info" type="button" data-testid="finish-recipe-btn" >
           Finalizar Receita
         </button>
       </Link>

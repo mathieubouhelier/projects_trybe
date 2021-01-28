@@ -67,3 +67,6 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 - *[Project - Blogs API](https://github.com/mathieubouhelier/projects_trybe/tree/main/projects%20Back%20End/sd-04-project-blogs-api)*
 #### NodeJS - Sockets
 - *[Project - Webchat](https://github.com/mathieubouhelier/projects_trybe/tree/main/projects%20Back%20End/sd-04-project-webchat)*
+## full stack development :white_check_mark:
+- *[Project - Trybeer V1 (group project)](https://github.com/juniomelos/Project-Trybeer)*
+- *[Project - Trybeer V2 (group project)](https://github.com/Ronan-Fernandes/group_6_trybeer_V2)*
